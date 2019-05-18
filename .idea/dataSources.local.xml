@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails memegenerator-server: development" uuid="4c3861e9-b7a7-4fce-be40-4baa98518584">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" exact-version="0" />
+    </data-source>
+    <data-source name="Rails memegenerator-server: test" uuid="83de3d4e-cb12-4e05-b0bd-c83ad6f2aeaf">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" exact-version="0" />
+    </data-source>
+    <data-source name="Rails memegenerator-server: production" uuid="5d38ed32-ad42-4a5c-96f4-d89a64fa9d8b">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" exact-version="0" />
+      <user-name>emeM</user-name>
+    </data-source>
+  </component>
+</project>

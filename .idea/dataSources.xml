@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Rails memegenerator-server: development" uuid="4c3861e9-b7a7-4fce-be40-4baa98518584">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/meme_development</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails memegenerator-server: test" uuid="83de3d4e-cb12-4e05-b0bd-c83ad6f2aeaf">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/emeM_test</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails memegenerator-server: production" uuid="5d38ed32-ad42-4a5c-96f4-d89a64fa9d8b">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/emeM_production</jdbc-url>
+    </data-source>
+  </component>
+</project>
