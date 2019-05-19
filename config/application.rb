@@ -30,15 +30,11 @@ module EmeM
     # Skip views, helpers and assets when generating a new resource.
     config.api_only = true
 
-    config.middleware.use Rack::Cors do
+    config.middleware.insert_before 0, Rack::Cors do
       allow do
         origins '*'
-        resource '*',
-                 :headers => :any,
-                 :methods => [:get, :post, :patch, :delete, :options, :put],
-                 :max_age => 15
+        resource '*', :headers => :any, :methods => [:get, :post, :patch, :delete, :options, :put]
       end
     end
-
   end
 end

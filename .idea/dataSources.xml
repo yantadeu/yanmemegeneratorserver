@@ -25,5 +25,11 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://127.0.0.1:5432/emeM_production</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="d20noitlprdsit@ec2-23-21-129-125.compute-1.amazonaws.com" uuid="c587df9a-96f0-4127-8431-cd523f5f1572">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://ec2-23-21-129-125.compute-1.amazonaws.com:5432/d20noitlprdsit</jdbc-url>
+    </data-source>
   </component>
 </project>
